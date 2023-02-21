@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-size: 65%;
+    box-sizing: content-box;
+}
+
+body{
+    background-color: #eee;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main{
+    height: 100vh;
+}
+
+.search--container {
+    position: relative;
+    height: 100%;
+}
+
+.search{
+    display: block;
+    font-size: 2rem;
+    padding: 2rem;
+    border: 2px solid rgb(86, 114, 139);
+    border-radius: 20rem;
+    width: 60%;
+    margin: auto;
+    position: absolute;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, .2);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search::placeholder{
+    text-transform: uppercase;
+}
+
+.search:focus{
+    box-shadow: 0 3rem 4rem rgba(0, 0, 0, .2);
+}
+
+.logo-container{
+    width: 100%;
+    font-size: 2rem;
+}
